@@ -26,6 +26,12 @@
 
 ![Project Screenshot](assets/screenshot.png)
 
+## 🌐 Live Demo
+
+Check out the deployed version here:
+
+👉 [Live Project](https://background-color-changer-lake.vercel.app/)
+
 ## 📁 Project Structure
 
 ```
