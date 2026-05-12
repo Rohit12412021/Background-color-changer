@@ -1,0 +1,65 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.box{
+    border:2px solid black;
+    height:100px;
+    width:100px;
+
+}
+.parent-box{
+     
+    height:20rem;
+    width:50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap:30px;
+}
+#box1{
+    background-color: red;
+
+}
+#box2{
+    background-color:blueviolet;
+
+}
+#box3{
+    background-color: yellow
+
+}
+#box4{
+    background-color: green;
+
+}
+.aa{
+    font-size: 2rem;
+  color: white;
+  text-shadow:
+    0 0 5px white,
+    0 0 10px white,
+    0 0 20px cyan,
+    0 0 40px cyan;
+
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow:
+      0 0 5px white,
+      0 0 10px cyan;
+  }
+
+  to {
+    text-shadow:
+      0 0 20px white,
+      0 0 40px cyan,
+      0 0 80px cyan;
+  }
+}
